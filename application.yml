@@ -6,7 +6,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-microservice:
-    department:
-        api-gateway:
-            endpoint: http://DEPARTMENT-SERVICE/department/get/
